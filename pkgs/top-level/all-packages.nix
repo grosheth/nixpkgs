@@ -17877,4 +17877,7 @@ with pkgs;
   rustdesk-flutter = callPackage ../by-name/ru/rustdesk-flutter/package.nix {
     flutter = flutter324;
   };
+
+  gysmo = callPackage ../by-name/gy/gysmo/package.nix { };
+
 }
